@@ -1,0 +1,220 @@
+<svg width="860" height="380" viewBox="0 0 860 380" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', Courier, monospace">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0d0221"/>
+      <stop offset="50%"  stop-color="#130330"/>
+      <stop offset="100%" stop-color="#0d0221"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#6c00b5"/>
+      <stop offset="100%" stop-color="#bf5fff"/>
+    </linearGradient>
+    <linearGradient id="hpGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#7b0000"/>
+      <stop offset="100%" stop-color="#ff4f7b"/>
+    </linearGradient>
+    <linearGradient id="mpGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00207b"/>
+      <stop offset="100%" stop-color="#4f9fff"/>
+    </linearGradient>
+    <linearGradient id="xpGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#7b5500"/>
+      <stop offset="100%" stop-color="#ffd700"/>
+    </linearGradient>
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base card -->
+  <rect width="860" height="380" rx="12" fill="url(#bgGrad)"/>
+  <rect width="860" height="380" rx="12" fill="none" stroke="#bf5fff" stroke-width="1.5" opacity="0.6"/>
+  <rect x="6" y="6" width="848" height="368" rx="9" fill="none" stroke="#6c00b5" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Grid -->
+  <g opacity="0.04" stroke="#bf5fff" stroke-width="0.5">
+    <line x1="0" y1="20" x2="860" y2="20"/><line x1="0" y1="40" x2="860" y2="40"/><line x1="0" y1="60" x2="860" y2="60"/><line x1="0" y1="80" x2="860" y2="80"/><line x1="0" y1="100" x2="860" y2="100"/><line x1="0" y1="120" x2="860" y2="120"/><line x1="0" y1="140" x2="860" y2="140"/><line x1="0" y1="160" x2="860" y2="160"/><line x1="0" y1="180" x2="860" y2="180"/><line x1="0" y1="200" x2="860" y2="200"/><line x1="0" y1="220" x2="860" y2="220"/><line x1="0" y1="240" x2="860" y2="240"/><line x1="0" y1="260" x2="860" y2="260"/><line x1="0" y1="280" x2="860" y2="280"/><line x1="0" y1="300" x2="860" y2="300"/><line x1="0" y1="320" x2="860" y2="320"/><line x1="0" y1="340" x2="860" y2="340"/><line x1="0" y1="360" x2="860" y2="360"/>
+    <line x1="20" y1="0" x2="20" y2="380"/><line x1="40" y1="0" x2="40" y2="380"/><line x1="60" y1="0" x2="60" y2="380"/><line x1="80" y1="0" x2="80" y2="380"/><line x1="100" y1="0" x2="100" y2="380"/><line x1="120" y1="0" x2="120" y2="380"/><line x1="140" y1="0" x2="140" y2="380"/><line x1="160" y1="0" x2="160" y2="380"/><line x1="180" y1="0" x2="180" y2="380"/><line x1="200" y1="0" x2="200" y2="380"/><line x1="220" y1="0" x2="220" y2="380"/><line x1="240" y1="0" x2="240" y2="380"/><line x1="260" y1="0" x2="260" y2="380"/><line x1="280" y1="0" x2="280" y2="380"/><line x1="300" y1="0" x2="300" y2="380"/><line x1="320" y1="0" x2="320" y2="380"/><line x1="340" y1="0" x2="340" y2="380"/><line x1="360" y1="0" x2="360" y2="380"/><line x1="380" y1="0" x2="380" y2="380"/><line x1="400" y1="0" x2="400" y2="380"/><line x1="420" y1="0" x2="420" y2="380"/><line x1="440" y1="0" x2="440" y2="380"/><line x1="460" y1="0" x2="460" y2="380"/><line x1="480" y1="0" x2="480" y2="380"/><line x1="500" y1="0" x2="500" y2="380"/><line x1="520" y1="0" x2="520" y2="380"/><line x1="540" y1="0" x2="540" y2="380"/><line x1="560" y1="0" x2="560" y2="380"/><line x1="580" y1="0" x2="580" y2="380"/><line x1="600" y1="0" x2="600" y2="380"/><line x1="620" y1="0" x2="620" y2="380"/><line x1="640" y1="0" x2="640" y2="380"/><line x1="660" y1="0" x2="660" y2="380"/><line x1="680" y1="0" x2="680" y2="380"/><line x1="700" y1="0" x2="700" y2="380"/><line x1="720" y1="0" x2="720" y2="380"/><line x1="740" y1="0" x2="740" y2="380"/><line x1="760" y1="0" x2="760" y2="380"/><line x1="780" y1="0" x2="780" y2="380"/><line x1="800" y1="0" x2="800" y2="380"/><line x1="820" y1="0" x2="820" y2="380"/><line x1="840" y1="0" x2="840" y2="380"/>
+  </g>
+
+  <!-- Corners -->
+  <g fill="#bf5fff" opacity="0.9" filter="url(#softGlow)">
+    <rect x="14" y="14" width="14" height="3"/><rect x="14" y="14" width="3" height="14"/>
+    <rect x="832" y="14" width="14" height="3"/><rect x="843" y="14" width="3" height="14"/>
+    <rect x="14" y="363" width="14" height="3"/><rect x="14" y="352" width="3" height="14"/>
+    <rect x="832" y="363" width="14" height="3"/><rect x="843" y="352" width="3" height="14"/>
+  </g>
+
+  <!-- Header -->
+  <rect x="14" y="14" width="832" height="38" rx="4" fill="#1a0535" stroke="#6c00b5" stroke-width="1"/>
+  <polygon points="26,33 32,27 38,33 32,39" fill="#bf5fff" opacity="0.8"/>
+  <polygon points="822,33 828,27 834,33 828,39" fill="#bf5fff" opacity="0.8"/>
+  <text x="430" y="39" text-anchor="middle" fill="#bf5fff" font-size="14" font-weight="bold" letter-spacing="8" filter="url(#softGlow)">✦  CHARACTER  SHEET  ✦</text>
+  <line x1="14" y1="58" x2="846" y2="58" stroke="#6c00b5" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- Avatar box -->
+  <rect x="24" y="68" width="88" height="88" rx="4" fill="#1a0535" stroke="#bf5fff" stroke-width="1.5"/>
+  <rect x="28" y="72" width="80" height="80" rx="2" fill="#0d0221" stroke="#6c00b5" stroke-width="0.5" opacity="0.6"/>
+  <rect x="50" y="80" width="28" height="24" rx="3" fill="#bf5fff" opacity="0.9"/>
+  <rect x="56" y="87" width="5" height="5" fill="#0d0221"/>
+  <rect x="67" y="87" width="5" height="5" fill="#0d0221"/>
+  <rect x="57" y="97" width="14" height="2" fill="#0d0221" rx="1"/>
+  <rect x="46" y="106" width="36" height="26" rx="2" fill="#6c00b5" opacity="0.9"/>
+  <rect x="36" y="108" width="10" height="18" rx="2" fill="#6c00b5" opacity="0.7"/>
+  <rect x="82" y="108" width="10" height="18" rx="2" fill="#6c00b5" opacity="0.7"/>
+  <text x="64" y="124" text-anchor="middle" font-size="10" fill="#bf5fff" font-weight="bold">&lt;/&gt;</text>
+
+  <!-- Name & class -->
+  <text x="126" y="86" fill="#ffffff" font-size="20" font-weight="bold" letter-spacing="2">GAURAV SIDDHAPATHAKI</text>
+  <text x="126" y="104" fill="#bf5fff" font-size="11" letter-spacing="4">FULL STACK DEVELOPER</text>
+  <rect x="126" y="113" width="80" height="20" rx="3" fill="#1a0535" stroke="#bf5fff" stroke-width="1"/>
+  <text x="166" y="127" text-anchor="middle" fill="#ffd700" font-size="10" font-weight="bold" letter-spacing="1">⚔  LVL  09</text>
+  <rect x="215" y="113" width="128" height="20" rx="3" fill="#1a0535" stroke="#6c00b5" stroke-width="1"/>
+  <text x="279" y="127" text-anchor="middle" fill="#bf5fff" font-size="10" letter-spacing="1">TOP LANG: TYPESCRIPT</text>
+
+  <!-- HP -->
+  <text x="126" y="152" fill="#ff4f7b" font-size="10" font-weight="bold" letter-spacing="1">HP</text>
+  <text x="340" y="152" text-anchor="end" fill="#888" font-size="9">144 / 1,000</text>
+  <rect x="150" y="141" width="190" height="12" rx="3" fill="#1a0535" stroke="#7b0000" stroke-width="0.8"/>
+  <rect x="150" y="141" width="0" height="12" rx="3" fill="url(#hpGrad)">
+    <animate attributeName="width" from="0" to="27" dur="1.2s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <!-- MP -->
+  <text x="126" y="173" fill="#4f9fff" font-size="10" font-weight="bold" letter-spacing="1">MP</text>
+  <text x="340" y="173" text-anchor="end" fill="#888" font-size="9">0 / 500</text>
+  <rect x="150" y="162" width="190" height="12" rx="3" fill="#1a0535" stroke="#00207b" stroke-width="0.8"/>
+  <rect x="150" y="162" width="0" height="12" rx="3" fill="url(#mpGrad)">
+    <animate attributeName="width" from="0" to="0" dur="1.2s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <!-- XP -->
+  <text x="126" y="194" fill="#ffd700" font-size="10" font-weight="bold" letter-spacing="1">XP</text>
+  <text x="340" y="194" text-anchor="end" fill="#888" font-size="9">4,275 / 10,000</text>
+  <rect x="150" y="183" width="190" height="12" rx="3" fill="#1a0535" stroke="#7b5500" stroke-width="0.8"/>
+  <rect x="150" y="183" width="0" height="12" rx="3" fill="url(#xpGrad)">
+    <animate attributeName="width" from="0" to="81" dur="1.2s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <!-- Status badges -->
+  <rect x="126" y="206" width="68" height="18" rx="9" fill="#1a0535" stroke="#22c55e" stroke-width="1"/>
+  <text x="160" y="219" text-anchor="middle" fill="#22c55e" font-size="9" letter-spacing="1">● ACTIVE</text>
+  <rect x="202" y="206" width="88" height="18" rx="9" fill="#1a0535" stroke="#ffd700" stroke-width="1"/>
+  <text x="246" y="219" text-anchor="middle" fill="#ffd700" font-size="9" letter-spacing="1">⚡ GRINDING</text>
+  <rect x="298" y="206" width="44" height="18" rx="9" fill="#1a0535" stroke="#bf5fff" stroke-width="1"/>
+  <text x="320" y="219" text-anchor="middle" fill="#bf5fff" font-size="9" letter-spacing="1">🔥 OP</text>
+
+  <!-- Stats summary boxes -->
+  <rect x="24" y="238" width="154" height="34" rx="4" fill="#1a0535" stroke="#6c00b5" stroke-width="1"/>
+  <text x="101" y="252" text-anchor="middle" fill="#888" font-size="8" letter-spacing="2">COMMITS</text>
+  <text x="101" y="265" text-anchor="middle" fill="#bf5fff" font-size="12" font-weight="bold">72</text>
+
+  <rect x="186" y="238" width="80" height="34" rx="4" fill="#1a0535" stroke="#6c00b5" stroke-width="1"/>
+  <text x="226" y="252" text-anchor="middle" fill="#888" font-size="8" letter-spacing="2">STARS</text>
+  <text x="226" y="265" text-anchor="middle" fill="#ffd700" font-size="12" font-weight="bold">0</text>
+
+  <rect x="274" y="238" width="76" height="34" rx="4" fill="#1a0535" stroke="#6c00b5" stroke-width="1"/>
+  <text x="312" y="252" text-anchor="middle" fill="#888" font-size="8" letter-spacing="2">PRs</text>
+  <text x="312" y="265" text-anchor="middle" fill="#22c55e" font-size="12" font-weight="bold">0</text>
+
+  <!-- Active quest -->
+  <rect x="24" y="282" width="326" height="36" rx="4" fill="#1a0535" stroke="#ffd700" stroke-width="1" opacity="0.9"/>
+  <text x="36" y="297" fill="#ffd700" font-size="9" font-weight="bold" letter-spacing="2">ACTIVE QUEST</text>
+  <text x="36" y="311" fill="#c9d1d9" font-size="9" opacity="0.85">📜 Master System Design &amp; conquer DSA</text>
+
+  <!-- Equipment -->
+  <rect x="24" y="326" width="326" height="36" rx="4" fill="#1a0535" stroke="#6c00b5" stroke-width="1"/>
+  <text x="36" y="341" fill="#bf5fff" font-size="9" font-weight="bold" letter-spacing="2">EQUIPPED</text>
+  <text x="36" y="354" fill="#c9d1d9" font-size="9" opacity="0.85">⌨ Mech KB  |  ☕ Infinite Coffee  |  🎧 Lo-fi  |  🖥 Dual Monitor</text>
+
+  <!-- Divider -->
+  <line x1="364" y1="62" x2="364" y2="368" stroke="#6c00b5" stroke-width="1" opacity="0.5" stroke-dasharray="4,4"/>
+  <polygon points="364,68 370,74 364,80 358,74" fill="#bf5fff" opacity="0.6"/>
+  <polygon points="364,300 370,306 364,312 358,306" fill="#bf5fff" opacity="0.6"/>
+
+  <!-- Right panel: BASE STATS -->
+  <text x="606" y="85" text-anchor="middle" fill="#bf5fff" font-size="11" font-weight="bold" letter-spacing="5" opacity="0.9">BASE  STATS</text>
+  <line x1="382" y1="92" x2="830" y2="92" stroke="#6c00b5" stroke-width="0.6" opacity="0.5"/>
+
+  
+  <text x="385" y="120" fill="#888" font-size="9" letter-spacing="1">STR</text>
+  <text x="418" y="120" fill="#ffffff" font-size="10" font-weight="bold">Problem Solving</text>
+  <text x="484" y="120" fill="#ffd700" font-size="9">★★★☆☆</text>
+  <rect x="548" y="107" width="240" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
+  <rect x="548" y="107" width="0"   height="14" rx="3" fill="url(#barGrad)">
+    <animate attributeName="width" from="0" to="156" dur="1s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <text x="797" y="120" fill="#bf5fff" font-size="10" font-weight="bold">65</text>
+  <text x="820" y="120" fill="#555" font-size="9">/100</text>
+  
+  <text x="385" y="148" fill="#888" font-size="9" letter-spacing="1">INT</text>
+  <text x="418" y="148" fill="#ffffff" font-size="10" font-weight="bold">System Design</text>
+  <text x="484" y="148" fill="#ffd700" font-size="9">★★★★☆</text>
+  <rect x="548" y="135" width="240" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
+  <rect x="548" y="135" width="0"   height="14" rx="3" fill="url(#barGrad)">
+    <animate attributeName="width" from="0" to="206" dur="1s" begin="0.45s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <text x="797" y="148" fill="#bf5fff" font-size="10" font-weight="bold">86</text>
+  <text x="820" y="148" fill="#555" font-size="9">/100</text>
+  
+  <text x="385" y="176" fill="#888" font-size="9" letter-spacing="1">DEX</text>
+  <text x="418" y="176" fill="#ffffff" font-size="10" font-weight="bold">Frontend Craft</text>
+  <text x="484" y="176" fill="#ffd700" font-size="9">★★★★★</text>
+  <rect x="548" y="163" width="240" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
+  <rect x="548" y="163" width="0"   height="14" rx="3" fill="url(#barGrad)">
+    <animate attributeName="width" from="0" to="240" dur="1s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <text x="797" y="176" fill="#bf5fff" font-size="10" font-weight="bold">100</text>
+  <text x="820" y="176" fill="#555" font-size="9">/100</text>
+  
+  <text x="385" y="204" fill="#888" font-size="9" letter-spacing="1">WIS</text>
+  <text x="418" y="204" fill="#ffffff" font-size="10" font-weight="bold">Backend Logic</text>
+  <text x="484" y="204" fill="#ffd700" font-size="9">☆☆☆☆☆</text>
+  <rect x="548" y="191" width="240" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
+  <rect x="548" y="191" width="0"   height="14" rx="3" fill="url(#barGrad)">
+    <animate attributeName="width" from="0" to="14" dur="1s" begin="0.75s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <text x="797" y="204" fill="#bf5fff" font-size="10" font-weight="bold">6</text>
+  <text x="820" y="204" fill="#555" font-size="9">/100</text>
+  
+  <text x="385" y="232" fill="#888" font-size="9" letter-spacing="1">CON</text>
+  <text x="418" y="232" fill="#ffffff" font-size="10" font-weight="bold">DevOps / Infra</text>
+  <text x="484" y="232" fill="#ffd700" font-size="9">☆☆☆☆☆</text>
+  <rect x="548" y="219" width="240" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
+  <rect x="548" y="219" width="0"   height="14" rx="3" fill="url(#barGrad)">
+    <animate attributeName="width" from="0" to="0" dur="1s" begin="0.9s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <text x="797" y="232" fill="#bf5fff" font-size="10" font-weight="bold">0</text>
+  <text x="820" y="232" fill="#555" font-size="9">/100</text>
+  
+  <text x="385" y="260" fill="#888" font-size="9" letter-spacing="1">CHA</text>
+  <text x="418" y="260" fill="#ffffff" font-size="10" font-weight="bold">Open Source</text>
+  <text x="484" y="260" fill="#ffd700" font-size="9">★☆☆☆☆</text>
+  <rect x="548" y="247" width="240" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
+  <rect x="548" y="247" width="0"   height="14" rx="3" fill="url(#barGrad)">
+    <animate attributeName="width" from="0" to="67" dur="1s" begin="1.05s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <text x="797" y="260" fill="#bf5fff" font-size="10" font-weight="bold">28</text>
+  <text x="820" y="260" fill="#555" font-size="9">/100</text>
+
+  <line x1="382" y1="274" x2="830" y2="274" stroke="#6c00b5" stroke-width="0.6" opacity="0.5"/>
+
+  <!-- Traits -->
+  <text x="606" y="291" text-anchor="middle" fill="#bf5fff" font-size="9" font-weight="bold" letter-spacing="5" opacity="0.9">TRAITS</text>
+  <rect x="382" y="300" width="82" height="20" rx="10" fill="#1a0535" stroke="#bf5fff" stroke-width="0.8"/>
+  <text x="423" y="314" text-anchor="middle" fill="#bf5fff" font-size="9">⚡ Fast Learner</text>
+  <rect x="472" y="300" width="90" height="20" rx="10" fill="#1a0535" stroke="#bf5fff" stroke-width="0.8"/>
+  <text x="517" y="314" text-anchor="middle" fill="#bf5fff" font-size="9">🔍 Debugger++</text>
+  <rect x="570" y="300" width="84" height="20" rx="10" fill="#1a0535" stroke="#bf5fff" stroke-width="0.8"/>
+  <text x="612" y="314" text-anchor="middle" fill="#bf5fff" font-size="9">☕ Caffeinated</text>
+  <rect x="662" y="300" width="84" height="20" rx="10" fill="#1a0535" stroke="#bf5fff" stroke-width="0.8"/>
+  <text x="704" y="314" text-anchor="middle" fill="#bf5fff" font-size="9">🌙 Night Coder</text>
+  <rect x="754" y="300" width="78" height="20" rx="10" fill="#1a0535" stroke="#bf5fff" stroke-width="0.8"/>
+  <text x="793" y="314" text-anchor="middle" fill="#bf5fff" font-size="9">📦 Shipper</text>
+
+  <!-- Footer -->
+  <line x1="382" y1="330" x2="830" y2="330" stroke="#6c00b5" stroke-width="0.6" opacity="0.5"/>
+  <text x="606" y="347" text-anchor="middle" fill="#555" font-size="9" letter-spacing="2">LAST SYNCED: 2026-03-07 08:32 UTC  •  SERVER: GITHUB API</text>
+  <text x="606" y="362" text-anchor="middle" fill="#4a1570" font-size="8" letter-spacing="1">⚠ WARNING: THIS CHARACTER KEEPS LEVELING UP</text>
+</svg>
