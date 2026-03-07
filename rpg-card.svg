@@ -70,15 +70,15 @@
   <text x="126" y="104" fill="#bf5fff" font-size="11" letter-spacing="4">FULL STACK DEVELOPER</text>
   <rect x="126" y="113" width="80" height="20" rx="3" fill="#1a0535" stroke="#bf5fff" stroke-width="1"/>
   <text x="166" y="127" text-anchor="middle" fill="#ffd700" font-size="10" font-weight="bold" letter-spacing="1">⚔  LVL  09</text>
-  <rect x="215" y="113" width="128" height="20" rx="3" fill="#1a0535" stroke="#6c00b5" stroke-width="1"/>
-  <text x="279" y="127" text-anchor="middle" fill="#bf5fff" font-size="10" letter-spacing="1">TOP LANG: TYPESCRIPT</text>
+  <rect x="215" y="113" width="135" height="20" rx="3" fill="#1a0535" stroke="#6c00b5" stroke-width="1"/>
+  <text x="282" y="127" text-anchor="middle" fill="#bf5fff" font-size="10">TOP LANG: TYPESCRIPT</text>
 
   <!-- HP -->
   <text x="126" y="152" fill="#ff4f7b" font-size="10" font-weight="bold" letter-spacing="1">HP</text>
-  <text x="340" y="152" text-anchor="end" fill="#888" font-size="9">144 / 1,000</text>
+  <text x="340" y="152" text-anchor="end" fill="#888" font-size="9">148 / 1,000</text>
   <rect x="150" y="141" width="190" height="12" rx="3" fill="#1a0535" stroke="#7b0000" stroke-width="0.8"/>
   <rect x="150" y="141" width="0" height="12" rx="3" fill="url(#hpGrad)">
-    <animate attributeName="width" from="0" to="27" dur="1.2s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    <animate attributeName="width" from="0" to="28" dur="1.2s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
   </rect>
 
   <!-- MP -->
@@ -108,7 +108,7 @@
   <!-- Stats summary boxes -->
   <rect x="24" y="238" width="154" height="34" rx="4" fill="#1a0535" stroke="#6c00b5" stroke-width="1"/>
   <text x="101" y="252" text-anchor="middle" fill="#888" font-size="8" letter-spacing="2">COMMITS</text>
-  <text x="101" y="265" text-anchor="middle" fill="#bf5fff" font-size="12" font-weight="bold">72</text>
+  <text x="101" y="265" text-anchor="middle" fill="#bf5fff" font-size="12" font-weight="bold">74</text>
 
   <rect x="186" y="238" width="80" height="34" rx="4" fill="#1a0535" stroke="#6c00b5" stroke-width="1"/>
   <text x="226" y="252" text-anchor="middle" fill="#888" font-size="8" letter-spacing="2">STARS</text>
@@ -121,12 +121,12 @@
   <!-- Active quest -->
   <rect x="24" y="282" width="326" height="36" rx="4" fill="#1a0535" stroke="#ffd700" stroke-width="1" opacity="0.9"/>
   <text x="36" y="297" fill="#ffd700" font-size="9" font-weight="bold" letter-spacing="2">ACTIVE QUEST</text>
-  <text x="36" y="311" fill="#c9d1d9" font-size="9" opacity="0.85">📜 Master System Design &amp; conquer DSA</text>
+  <text x="36" y="311" fill="#c9d1d9" font-size="9" opacity="0.85">📜 Master System Design</text>
 
   <!-- Equipment -->
   <rect x="24" y="326" width="326" height="36" rx="4" fill="#1a0535" stroke="#6c00b5" stroke-width="1"/>
   <text x="36" y="341" fill="#bf5fff" font-size="9" font-weight="bold" letter-spacing="2">EQUIPPED</text>
-  <text x="36" y="354" fill="#c9d1d9" font-size="9" opacity="0.85">⌨ Mech KB  |  ☕ Infinite Coffee  |  🎧 Lo-fi  |  🖥 Dual Monitor</text>
+  <text x="36" y="354" fill="#c9d1d9" font-size="8" opacity="0.85">⌨ Mech KB | ☕ Infinite Coffee | 🎧 Lo-fi | 🖥 Dual Monitor</text>
 
   <!-- Divider -->
   <line x1="364" y1="62" x2="364" y2="368" stroke="#6c00b5" stroke-width="1" opacity="0.5" stroke-dasharray="4,4"/>
@@ -140,49 +140,44 @@
   
   <text x="385" y="120" fill="#888" font-size="9" letter-spacing="1">STR</text>
   <text x="418" y="120" fill="#ffffff" font-size="10" font-weight="bold">Problem Solving</text>
-  <text x="484" y="120" fill="#ffd700" font-size="9">★★★☆☆</text>
-  <rect x="548" y="107" width="240" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
-  <rect x="548" y="107" width="0"   height="14" rx="3" fill="url(#barGrad)">
-    <animate attributeName="width" from="0" to="156" dur="1s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  <rect x="530" y="107" width="260" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
+  <rect x="530" y="107" width="0"   height="14" rx="3" fill="url(#barGrad)">
+    <animate attributeName="width" from="0" to="169" dur="1s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
   </rect>
   <text x="797" y="120" fill="#bf5fff" font-size="10" font-weight="bold">65</text>
   <text x="820" y="120" fill="#555" font-size="9">/100</text>
   
   <text x="385" y="148" fill="#888" font-size="9" letter-spacing="1">INT</text>
   <text x="418" y="148" fill="#ffffff" font-size="10" font-weight="bold">System Design</text>
-  <text x="484" y="148" fill="#ffd700" font-size="9">★★★★☆</text>
-  <rect x="548" y="135" width="240" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
-  <rect x="548" y="135" width="0"   height="14" rx="3" fill="url(#barGrad)">
-    <animate attributeName="width" from="0" to="206" dur="1s" begin="0.45s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  <rect x="530" y="135" width="260" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
+  <rect x="530" y="135" width="0"   height="14" rx="3" fill="url(#barGrad)">
+    <animate attributeName="width" from="0" to="223" dur="1s" begin="0.45s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
   </rect>
   <text x="797" y="148" fill="#bf5fff" font-size="10" font-weight="bold">86</text>
   <text x="820" y="148" fill="#555" font-size="9">/100</text>
   
   <text x="385" y="176" fill="#888" font-size="9" letter-spacing="1">DEX</text>
   <text x="418" y="176" fill="#ffffff" font-size="10" font-weight="bold">Frontend Craft</text>
-  <text x="484" y="176" fill="#ffd700" font-size="9">★★★★★</text>
-  <rect x="548" y="163" width="240" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
-  <rect x="548" y="163" width="0"   height="14" rx="3" fill="url(#barGrad)">
-    <animate attributeName="width" from="0" to="240" dur="1s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  <rect x="530" y="163" width="260" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
+  <rect x="530" y="163" width="0"   height="14" rx="3" fill="url(#barGrad)">
+    <animate attributeName="width" from="0" to="260" dur="1s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
   </rect>
   <text x="797" y="176" fill="#bf5fff" font-size="10" font-weight="bold">100</text>
   <text x="820" y="176" fill="#555" font-size="9">/100</text>
   
   <text x="385" y="204" fill="#888" font-size="9" letter-spacing="1">WIS</text>
   <text x="418" y="204" fill="#ffffff" font-size="10" font-weight="bold">Backend Logic</text>
-  <text x="484" y="204" fill="#ffd700" font-size="9">☆☆☆☆☆</text>
-  <rect x="548" y="191" width="240" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
-  <rect x="548" y="191" width="0"   height="14" rx="3" fill="url(#barGrad)">
-    <animate attributeName="width" from="0" to="14" dur="1s" begin="0.75s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  <rect x="530" y="191" width="260" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
+  <rect x="530" y="191" width="0"   height="14" rx="3" fill="url(#barGrad)">
+    <animate attributeName="width" from="0" to="15" dur="1s" begin="0.75s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
   </rect>
   <text x="797" y="204" fill="#bf5fff" font-size="10" font-weight="bold">6</text>
   <text x="820" y="204" fill="#555" font-size="9">/100</text>
   
   <text x="385" y="232" fill="#888" font-size="9" letter-spacing="1">CON</text>
   <text x="418" y="232" fill="#ffffff" font-size="10" font-weight="bold">DevOps / Infra</text>
-  <text x="484" y="232" fill="#ffd700" font-size="9">☆☆☆☆☆</text>
-  <rect x="548" y="219" width="240" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
-  <rect x="548" y="219" width="0"   height="14" rx="3" fill="url(#barGrad)">
+  <rect x="530" y="219" width="260" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
+  <rect x="530" y="219" width="0"   height="14" rx="3" fill="url(#barGrad)">
     <animate attributeName="width" from="0" to="0" dur="1s" begin="0.9s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
   </rect>
   <text x="797" y="232" fill="#bf5fff" font-size="10" font-weight="bold">0</text>
@@ -190,10 +185,9 @@
   
   <text x="385" y="260" fill="#888" font-size="9" letter-spacing="1">CHA</text>
   <text x="418" y="260" fill="#ffffff" font-size="10" font-weight="bold">Open Source</text>
-  <text x="484" y="260" fill="#ffd700" font-size="9">★☆☆☆☆</text>
-  <rect x="548" y="247" width="240" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
-  <rect x="548" y="247" width="0"   height="14" rx="3" fill="url(#barGrad)">
-    <animate attributeName="width" from="0" to="67" dur="1s" begin="1.05s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  <rect x="530" y="247" width="260" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
+  <rect x="530" y="247" width="0"   height="14" rx="3" fill="url(#barGrad)">
+    <animate attributeName="width" from="0" to="72" dur="1s" begin="1.05s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
   </rect>
   <text x="797" y="260" fill="#bf5fff" font-size="10" font-weight="bold">28</text>
   <text x="820" y="260" fill="#555" font-size="9">/100</text>
@@ -215,6 +209,6 @@
 
   <!-- Footer -->
   <line x1="382" y1="330" x2="830" y2="330" stroke="#6c00b5" stroke-width="0.6" opacity="0.5"/>
-  <text x="606" y="347" text-anchor="middle" fill="#555" font-size="9" letter-spacing="2">LAST SYNCED: 2026-03-07 08:32 UTC  •  SERVER: GITHUB API</text>
+  <text x="606" y="347" text-anchor="middle" fill="#555" font-size="9" letter-spacing="2">LAST SYNCED: 2026-03-07 11:33 UTC  •  SERVER: GITHUB API</text>
   <text x="606" y="362" text-anchor="middle" fill="#4a1570" font-size="8" letter-spacing="1">⚠ WARNING: THIS CHARACTER KEEPS LEVELING UP</text>
 </svg>
