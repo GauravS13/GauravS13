@@ -60,10 +60,7 @@ def clamp(val: float, lo=0, hi=MAX_STAT) -> int:
     return int(max(lo, min(hi, val)))
 
 
-def stars_to_rating(val: int, max_val: int) -> str:
-    ratio = val / max_val if max_val else 0
-    full  = round(ratio * 5)
-    return "★" * full + "☆" * (5 - full)
+
 
 
 def fetch_all_stats(token: str) -> dict:
@@ -204,14 +201,12 @@ def render_svg(s: dict) -> str:
     """Render the full RPG card SVG from stats dict."""
 
     def stat_row(y, abbr, label, val, delay):
-        bw    = bar_width(val)
-        stars = stars_to_rating(val, 100)
+        bw    = bar_width(val, 260)
         return f"""
   <text x="385" y="{y}" fill="#888" font-size="9" letter-spacing="1">{abbr}</text>
   <text x="418" y="{y}" fill="#ffffff" font-size="10" font-weight="bold">{label}</text>
-  <text x="484" y="{y}" fill="#ffd700" font-size="9">{stars}</text>
-  <rect x="548" y="{y-13}" width="240" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
-  <rect x="548" y="{y-13}" width="0"   height="14" rx="3" fill="url(#barGrad)">
+  <rect x="530" y="{y-13}" width="260" height="14" rx="3" fill="#1a0535" stroke="#2a0550" stroke-width="0.8"/>
+  <rect x="530" y="{y-13}" width="0"   height="14" rx="3" fill="url(#barGrad)">
     <animate attributeName="width" from="0" to="{bw}" dur="1s" begin="{delay}s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
   </rect>
   <text x="797" y="{y}" fill="#bf5fff" font-size="10" font-weight="bold">{val}</text>
@@ -299,8 +294,8 @@ def render_svg(s: dict) -> str:
   <text x="126" y="104" fill="#bf5fff" font-size="11" letter-spacing="4">FULL STACK DEVELOPER</text>
   <rect x="126" y="113" width="80" height="20" rx="3" fill="#1a0535" stroke="#bf5fff" stroke-width="1"/>
   <text x="166" y="127" text-anchor="middle" fill="#ffd700" font-size="10" font-weight="bold" letter-spacing="1">⚔  LVL  {s["level"]:02d}</text>
-  <rect x="215" y="113" width="128" height="20" rx="3" fill="#1a0535" stroke="#6c00b5" stroke-width="1"/>
-  <text x="279" y="127" text-anchor="middle" fill="#bf5fff" font-size="10" letter-spacing="1">TOP LANG: {s["top_lang"].upper()}</text>
+  <rect x="215" y="113" width="135" height="20" rx="3" fill="#1a0535" stroke="#6c00b5" stroke-width="1"/>
+  <text x="282" y="127" text-anchor="middle" fill="#bf5fff" font-size="10">TOP LANG: {s["top_lang"].upper()}</text>
 
   <!-- HP -->
   <text x="126" y="152" fill="#ff4f7b" font-size="10" font-weight="bold" letter-spacing="1">HP</text>
@@ -350,12 +345,12 @@ def render_svg(s: dict) -> str:
   <!-- Active quest -->
   <rect x="24" y="282" width="326" height="36" rx="4" fill="#1a0535" stroke="#ffd700" stroke-width="1" opacity="0.9"/>
   <text x="36" y="297" fill="#ffd700" font-size="9" font-weight="bold" letter-spacing="2">ACTIVE QUEST</text>
-  <text x="36" y="311" fill="#c9d1d9" font-size="9" opacity="0.85">📜 Master System Design &amp; conquer DSA</text>
+  <text x="36" y="311" fill="#c9d1d9" font-size="9" opacity="0.85">📜 Master System Design</text>
 
   <!-- Equipment -->
   <rect x="24" y="326" width="326" height="36" rx="4" fill="#1a0535" stroke="#6c00b5" stroke-width="1"/>
   <text x="36" y="341" fill="#bf5fff" font-size="9" font-weight="bold" letter-spacing="2">EQUIPPED</text>
-  <text x="36" y="354" fill="#c9d1d9" font-size="9" opacity="0.85">⌨ Mech KB  |  ☕ Infinite Coffee  |  🎧 Lo-fi  |  🖥 Dual Monitor</text>
+  <text x="36" y="354" fill="#c9d1d9" font-size="8" opacity="0.85">⌨ Mech KB | ☕ Infinite Coffee | 🎧 Lo-fi | 🖥 Dual Monitor</text>
 
   <!-- Divider -->
   <line x1="364" y1="62" x2="364" y2="368" stroke="#6c00b5" stroke-width="1" opacity="0.5" stroke-dasharray="4,4"/>
