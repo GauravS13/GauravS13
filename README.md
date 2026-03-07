@@ -66,7 +66,6 @@ const gaurav = {
 ### 🌱 &nbsp; Currently Learning
 - 📐 **System Design** — HLD & LLD
 - ☸️ **Docker + Kubernetes** basics
-- 🧠 **DSA** — grinding LeetCode daily
 
 </td>
 </tr>
