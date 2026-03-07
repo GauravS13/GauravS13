@@ -162,9 +162,42 @@ const gaurav = {
 </tr>
 </thead>
 <tbody>
+
 <tr>
-<td colspan="4" align="center"><i>⏳ Projects loading... run the workflow to populate this section.</i></td>
+<td><b>🟨 Present-Thief</b><br/><sub>⭐ 0 &nbsp; 🍴 0</sub></td>
+<td>🎮 A pixel-perfect stealth platformer crafted in Rust. Dodge guards, hack doors, chain combos, and rescue Christmas in 256×144 pixels of festive chaos!</td>
+<td>`JavaScript`</td>
+<td align="center"><a href="https://present-thief-turbo.vercel.app/"><img src="https://img.shields.io/badge/LIVE-bf5fff?style=flat-square&logo=vercel&logoColor=white"/></a> <a href="https://github.com/GauravS13/Present-Thief"><img src="https://img.shields.io/badge/CODE-0d0221?style=flat-square&logo=github&logoColor=white"/></a></td>
 </tr>
+
+<tr>
+<td><b>🟦 AfterWord</b><br/><sub>⭐ 0 &nbsp; 🍴 0</sub></td>
+<td>🕯️ Afterword: Close the final chapter. A privacy-first digital estate management platform that helps families discover, close, and document online accounts after a loss. Built with Next.js 16, Convex.</td>
+<td>`TypeScript`</td>
+<td align="center"><a href="https://afterwordmax.vercel.app/"><img src="https://img.shields.io/badge/LIVE-bf5fff?style=flat-square&logo=vercel&logoColor=white"/></a> <a href="https://github.com/GauravS13/AfterWord"><img src="https://img.shields.io/badge/CODE-0d0221?style=flat-square&logo=github&logoColor=white"/></a></td>
+</tr>
+
+<tr>
+<td><b>🐍 CodeSentinel-GitHub-Risk-Scraper</b><br/><sub>⭐ 0 &nbsp; 🍴 0</sub></td>
+<td>No description provided.</td>
+<td>`Python`</td>
+<td align="center"><a href="https://github.com/GauravS13/CodeSentinel-GitHub-Risk-Scraper"><img src="https://img.shields.io/badge/CODE-0d0221?style=flat-square&logo=github&logoColor=white"/></a></td>
+</tr>
+
+<tr>
+<td><b>🐍 Distributed-Git-Orchestrator</b><br/><sub>⭐ 0 &nbsp; 🍴 0</sub></td>
+<td>Multi-repository Git orchestration tool with optional AI, security scanning, analytics & cloud integration. Manage multiple repos with single commands.</td>
+<td>`Python`</td>
+<td align="center"><a href="https://github.com/GauravS13/Distributed-Git-Orchestrator"><img src="https://img.shields.io/badge/CODE-0d0221?style=flat-square&logo=github&logoColor=white"/></a></td>
+</tr>
+
+<tr>
+<td><b>🟦 intrusive_thought_externalizer</b><br/><sub>⭐ 0 &nbsp; 🍴 0</sub></td>
+<td>Transform intrusive thoughts into harmless, absurd cartoon characters with AI. 🧠✨ A privacy-first tool using cognitive defusion to make scarier thoughts laughable. Built for MINDCODE 2026.</td>
+<td>`TypeScript`</td>
+<td align="center"><a href="https://intrusivethoughtexternalizer-2.vercel.app/"><img src="https://img.shields.io/badge/LIVE-bf5fff?style=flat-square&logo=vercel&logoColor=white"/></a> <a href="https://github.com/GauravS13/intrusive_thought_externalizer"><img src="https://img.shields.io/badge/CODE-0d0221?style=flat-square&logo=github&logoColor=white"/></a></td>
+</tr>
+
 </tbody>
 </table>
 
