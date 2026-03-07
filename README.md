@@ -5,7 +5,7 @@
 <div align="center">
 
 <!-- ░░░ ANIMATED BANNER ░░░ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,50:6c00b5,100:bf5fff&height=200&section=header&text=GAURAV%20&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Builder%20%7C%20Learner&descAlignY=60&descSize=18&animation=fadeIn&fontAlign=50" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,50:6c00b5,100:bf5fff&height=200&section=header&text=GAURAV&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Builder%20%7C%20Learner&descAlignY=60&descSize=18&animation=fadeIn&fontAlign=50" />
 
 <!-- ░░░ TYPEWRITER TERMINAL INTRO ░░░ -->
 <a href="https://git.io/typing-svg">
@@ -57,7 +57,7 @@ const gaurav = {
 
 ### 🔭 &nbsp; Currently Building
 - ⚡ Full-stack apps with **React + Node.js**
-- 🏗️ Scalable REST APIs
+- 🏗️ Scalable REST APIs & microservices
 - 🎯 Projects that solve real problems
 
 </td>
@@ -93,7 +93,7 @@ const gaurav = {
 <!-- BACKEND -->
 **⬡ &nbsp; Backend & Database** &nbsp;
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,python,mongodb,postgres,mysql,redis&theme=dark&perline=7" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql&theme=dark&perline=4" />
 
 <br/><br/>
 
@@ -137,7 +137,7 @@ const gaurav = {
 <!--               SECTION 4 — FEATURED PROJECTS                    -->
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
-<!-- <div align="center">
+<div align="center">
 
 ### ◈ &nbsp;`~/projects` &nbsp;◈
 
@@ -147,60 +147,24 @@ const gaurav = {
 
 </div>
 
-<br/> -->
+<br/>
 
-<!-- PROJECT TABLE — replace links/descriptions with your actual projects -->
-<!-- <table align="center" width="100%">
+<!-- PROJECTS_START -->
+> 📌 &nbsp; *Auto-synced from my pinned repositories — updated daily*
+
+<table align="center" width="100%">
 <thead>
 <tr>
 <th align="left">🔮 Project</th>
 <th align="left">📝 Description</th>
-<th align="left">🧱 Stack</th>
+<th align="left">🧱 Stack / Topics</th>
 <th align="center">🔗 Links</th>
 </tr>
 </thead>
 <tbody>
-
 <tr>
-<td><b>⚡ Project Alpha</b></td>
-<td>A full-stack SaaS app with auth, dashboards & real-time features</td>
-<td><code>React</code> <code>Node.js</code> <code>MongoDB</code></td>
-<td align="center">
-  <a href="#"><img src="https://img.shields.io/badge/DEMO-bf5fff?style=flat-square&logo=vercel&logoColor=white"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/CODE-0d0221?style=flat-square&logo=github&logoColor=white"/></a>
-</td>
+<td colspan="4" align="center"><i>⏳ Projects loading... run the workflow to populate this section.</i></td>
 </tr>
-
-<tr>
-<td><b>🧠 Project Beta</b></td>
-<td>REST API with JWT auth, role-based access, and rate limiting</td>
-<td><code>Express</code> <code>PostgreSQL</code> <code>Redis</code></td>
-<td align="center">
-  <a href="#"><img src="https://img.shields.io/badge/DEMO-bf5fff?style=flat-square&logo=vercel&logoColor=white"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/CODE-0d0221?style=flat-square&logo=github&logoColor=white"/></a>
-</td>
-</tr>
-
-<tr>
-<td><b>🌐 Project Gamma</b></td>
-<td>A pixel-perfect responsive portfolio site with smooth animations</td>
-<td><code>Next.js</code> <code>TypeScript</code> <code>Tailwind</code></td>
-<td align="center">
-  <a href="#"><img src="https://img.shields.io/badge/DEMO-bf5fff?style=flat-square&logo=vercel&logoColor=white"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/CODE-0d0221?style=flat-square&logo=github&logoColor=white"/></a>
-</td>
-</tr>
-
-<tr>
-<td><b>🐳 Project Delta</b></td>
-<td>Dockerized microservices app with CI/CD pipeline on GitHub Actions</td>
-<td><code>Docker</code> <code>Python</code> <code>GitHub Actions</code></td>
-<td align="center">
-  <a href="#"><img src="https://img.shields.io/badge/DEMO-bf5fff?style=flat-square&logo=vercel&logoColor=white"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/CODE-0d0221?style=flat-square&logo=github&logoColor=white"/></a>
-</td>
-</tr>
-
 </tbody>
 </table>
 
@@ -209,7 +173,8 @@ const gaurav = {
 <a href="https://github.com/GauravS13?tab=repositories">
   <img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-6c00b5?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-</div> -->
+</div>
+<!-- PROJECTS_END -->
 
 ---
 
@@ -273,13 +238,17 @@ const gaurav = {
 
 <div align="center">
 
-### ◈ &nbsp;`~/achievements` &nbsp;◈
+### ◈ &nbsp;`~/character-sheet` &nbsp;◈
 
 <br/>
 
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=GauravS13&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10&title=Stars,Followers,Commits,Repositories,PullRequest,Issues,MultiLanguage" />
-</a>
+> 🎮 &nbsp; *Every dev is a character. Here are my stats.*
+
+<br/>
+
+<div align="center">
+  <img src="./rpg-card.svg" alt="RPG Developer Character Sheet" width="100%"/>
+</div>
 
 </div>
 
