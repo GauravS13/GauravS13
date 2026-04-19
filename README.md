@@ -171,7 +171,7 @@ const gaurav = {
 </tr>
 
 <tr>
-<td><b>🟦 AfterWord</b><br/><sub>⭐ 0 &nbsp; 🍴 0</sub></td>
+<td><b>🟦 AfterWord</b><br/><sub>⭐ 1 &nbsp; 🍴 0</sub></td>
 <td>🕯️ Afterword: Close the final chapter. A privacy-first digital estate management platform that helps families discover, close, and document online accounts after a loss. Built with Next.js 16, Convex.</td>
 <td>`TypeScript`</td>
 <td align="center"><a href="https://afterwordmax.vercel.app/"><img src="https://img.shields.io/badge/LIVE-bf5fff?style=flat-square&logo=vercel&logoColor=white"/></a> <a href="https://github.com/GauravS13/AfterWord"><img src="https://img.shields.io/badge/CODE-0d0221?style=flat-square&logo=github&logoColor=white"/></a></td>
