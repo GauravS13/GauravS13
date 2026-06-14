@@ -2,11 +2,8 @@ name: 🎮 Generate RPG Card
 
 on:
   schedule:
-    - cron: "0 0 * * *"     # Every day at midnight UTC
+    - cron: "0 0 1 * *"     # Once a month, on the 1st at midnight UTC
   workflow_dispatch:          # Manual trigger
-  push:
-    branches:
-      - main
 
 jobs:
   build-rpg-card:

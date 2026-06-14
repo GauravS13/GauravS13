@@ -2,11 +2,8 @@ name: 🔄 Auto-Update Pinned Projects
 
 on:
   schedule:
-    - cron: "0 0 * * *"      # Every day at midnight UTC
+    - cron: "0 0 1 * *"      # Once a month, on the 1st at midnight UTC
   workflow_dispatch:           # Manual trigger from Actions tab
-  push:
-    branches:
-      - main                   # Also runs on every push to main
 
 jobs:
   update-readme:
