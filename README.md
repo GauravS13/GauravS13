@@ -198,6 +198,13 @@ const gaurav = {
 <td align="center"><a href="https://intrusivethoughtexternalizer-2.vercel.app/"><img src="https://img.shields.io/badge/LIVE-bf5fff?style=flat-square&logo=vercel&logoColor=white"/></a> <a href="https://github.com/GauravS13/intrusive_thought_externalizer"><img src="https://img.shields.io/badge/CODE-0d0221?style=flat-square&logo=github&logoColor=white"/></a></td>
 </tr>
 
+<tr>
+<td><b>🦀 tinytag-rs</b><br/><sub>⭐ 0 &nbsp; 🍴 0</sub></td>
+<td> Rust port of tinytag (Python audio metadata reader) — WAV/AIFF/FLAC/MP3/Ogg/MP4, zero deps, zero unsafe,   differentially fuzzed against the original. Port Mortem 2026, Track D.</td>
+<td>`Rust`</td>
+<td align="center"><a href="https://youtu.be/Hg3GoT8XJr0"><img src="https://img.shields.io/badge/LIVE-bf5fff?style=flat-square&logo=vercel&logoColor=white"/></a> <a href="https://github.com/GauravS13/tinytag-rs"><img src="https://img.shields.io/badge/CODE-0d0221?style=flat-square&logo=github&logoColor=white"/></a></td>
+</tr>
+
 </tbody>
 </table>
 
